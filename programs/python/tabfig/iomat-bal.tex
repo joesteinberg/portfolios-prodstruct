@@ -1,0 +1,73 @@
+\begin{table}[p]
+\renewcommand{\arraystretch}{1.2}
+\begin{center}
+\begin{threeparttable}
+\caption{Input-output representation of model; benchmark and counterfactual input-output tables}
+\label{tab:iomat-bench}
+\small
+\begin{tabular}{cccccccccc}
+\toprule
+& \multicolumn{4}{c}{Intermediate inputs}& \multicolumn{4}{c}{Final demand} & \\
+\cmidrule(rl){2-5}\cmidrule(rl){6-9}
+ &\multicolumn{1}{p{1.25cm}}{\centering USA} &\multicolumn{1}{p{1.25cm}}{\centering ADV} &\multicolumn{1}{p{1.25cm}}{\centering EME} &\multicolumn{1}{p{1.25cm}}{\centering ROW} &\multicolumn{1}{p{1.25cm}}{\centering USA} &\multicolumn{1}{p{1.25cm}}{\centering ADV} &\multicolumn{1}{p{1.25cm}}{\centering EME} &\multicolumn{1}{p{1.25cm}}{\centering ROW}& \multicolumn{1}{p{1.25cm}}{\centering GO}\\
+\midrule
+\multicolumn{10}{l}{\textit{(a) Input-output representation of model steady state}} \\
+USA& $\bar{m}_{11}$  & $\bar{m}_{21}$  & $\bar{m}_{31}$ & $\bar{m}_{41}$ & $\bar{c}_{11}+\bar{x}_{11}$ & $\bar{c}_{21}+\bar{x}_{21}$ & $\bar{c}_{31}+\bar{x}_{31}$ & $\bar{c}_{41}+\bar{x}_{41}$ & $\bar{y}_1$ \\
+ADV& $\bar{m}_{12}$  & $\bar{m}_{22}$  & $\bar{m}_{32}$ & $\bar{m}_{42}$ & $\bar{c}_{12}+\bar{x}_{12}$ & $\bar{c}_{22}+\bar{x}_{22}$ & $\bar{c}_{32}+\bar{x}_{32}$ & $\bar{c}_{42}+\bar{x}_{42}$ & $\bar{y}_2$ \\
+EME& $\bar{m}_{13}$  & $\bar{m}_{23}$  & $\bar{m}_{33}$ & $\bar{m}_{43}$ & $\bar{c}_{13}+\bar{x}_{13}$ & $\bar{c}_{23}+\bar{x}_{23}$ & $\bar{c}_{33}+\bar{x}_{33}$ & $\bar{c}_{43}+\bar{x}_{43}$ & $\bar{y}_3$ \\
+ROW& $\bar{m}_{14}$  & $\bar{m}_{24}$  & $\bar{m}_{34}$ & $\bar{m}_{44}$ & $\bar{c}_{14}+\bar{x}_{14}$ & $\bar{c}_{24}+\bar{x}_{24}$ & $\bar{c}_{34}+\bar{x}_{34}$ & $\bar{c}_{44}+\bar{x}_{44}$ & $\bar{y}_4$ \\
+%\midrule[0.01em]
+VA& $\bar{v}_1$ & $\bar{v}_2$ & $\bar{v}_3$ & $\bar{v}_4$ & 0.00& 0.00& 0.00& 0.00& $\sum_{i=1}^4 \bar{v}_i$ \\
+%\midrule[0.01em]
+GO& $\bar{y}_1$ & $\bar{y}_2$ & $\bar{y}_3$ & $\bar{y}_4$ & 0.00& 0.00& 0.00& 0.00& $\sum_{i=1}^4 \bar{y}_i$ \\
+\midrule
+\multicolumn{10}{l}{\textit{(b) 1995 benchmark}} \\
+USA& 19.15& 0.88& 0.35& 0.62& 24.33& 0.52& 0.18& 0.18& 46.21 \\
+ADV& 0.80& 41.73& 0.79& 1.12& 0.63& 49.06& 0.51& 0.61& 95.24 \\
+EME& 0.30& 0.83& 12.41& 0.31& 0.32& 0.54& 12.35& 0.14& 27.21 \\
+ROW& 0.41& 1.17& 0.47& 7.91& 0.27& 0.52& 0.15& 9.70& 20.59 \\
+VA& 25.55& 50.63& 13.19& 10.63& 0.00& 0.00& 0.00& 0.00& 100.00\\
+GO& 46.21& 95.24& 27.21& 20.59& 0.00& 0.00& 0.00& 0.00& 189.25\\
+\midrule
+\multicolumn{10}{l}{\textit{(c) 2011 benchmark}}\\
+USA& 15.11& 0.91& 0.66& 0.53& 20.71& 0.45& 0.28& 0.21& 38.86 \\
+ADV& 0.73& 30.84& 1.67& 1.73& 0.45& 34.48& 0.78& 0.78& 71.47 \\
+EME& 0.63& 1.69& 32.58& 1.06& 0.51& 1.02& 24.37& 0.56& 62.42 \\
+ROW& 0.51& 1.46& 1.66& 12.89& 0.21& 0.61& 0.42& 14.15& 31.91 \\
+VA& 21.89& 36.57& 25.85& 15.70& 0.00& 0.00& 0.00& 0.00& 100.00\\
+GO& 38.86& 71.47& 62.42& 31.91& 0.00& 0.00& 0.00& 0.00& 204.65\\
+\midrule
+\multicolumn{10}{l}{\textit{(d) Counterfactual 1: change in relative sizes only}}\\
+USA& 16.17& 0.61& 0.45& 0.72& 20.67& 0.40& 0.23& 0.21& 39.47 \\
+ADV& 0.68& 29.61& 0.94& 1.18& 0.49& 34.98& 0.60& 0.64& 69.12 \\
+EME& 0.43& 0.99& 25.27& 0.57& 0.42& 0.66& 24.76& 0.25& 53.35 \\
+ROW& 0.42& 1.00& 0.81& 12.23& 0.31& 0.54& 0.26& 14.60& 30.16 \\
+VA& 21.89& 36.57& 25.85& 15.70& 0.00& 0.00& 0.00& 0.00& 100.00\\
+GO& 39.59& 68.79& 53.32& 30.40& 0.00& 0.00& 0.00& 0.00& 192.10\\
+\midrule
+\multicolumn{10}{l}{\textit{(e) Counterfactual 2: change in openness only}}\\
+USA& 18.91& 0.62& 0.62& 0.77& 24.20& 0.41& 0.33& 0.23& 46.08 \\
+ADV& 0.69& 41.02& 1.58& 1.54& 0.48& 48.46& 1.07& 0.84& 95.69 \\
+EME& 0.61& 1.67& 10.42& 1.03& 0.56& 1.10& 11.32& 0.46& 27.17 \\
+ROW& 0.45& 1.30& 1.40& 6.61& 0.31& 0.67& 0.47& 9.10& 20.31 \\
+VA& 25.55& 50.63& 13.19& 10.63& 0.00& 0.00& 0.00& 0.00& 100.00\\
+GO& 46.21& 95.24& 27.21& 20.59& 0.00& 0.00& 0.00& 0.00& 189.25\\
+\midrule
+\multicolumn{10}{l}{\textit{(f) Counterfactual 3: change in intermediate trade shares only}}\\
+USA& 19.15& 0.93& 0.37& 0.64& 24.41& 0.46& 0.15& 0.17& 46.29 \\
+ADV& 0.84& 41.73& 0.85& 1.16& 0.59& 49.23& 0.44& 0.57& 95.41 \\
+EME& 0.32& 0.89& 12.41& 0.32& 0.30& 0.48& 12.46& 0.13& 27.32 \\
+ROW& 0.42& 1.23& 0.49& 7.91& 0.25& 0.46& 0.13& 9.77& 20.66 \\
+VA& 25.55& 50.63& 13.19& 10.63& 0.00& 0.00& 0.00& 0.00& 100.00\\
+GO& 46.29& 95.41& 27.32& 20.66& 0.00& 0.00& 0.00& 0.00& 189.67\\
+\bottomrule
+\end{tabular}
+\normalsize
+\begin{tablenotes}
+\small
+\item Note: in each panel (b)--(f), all entries are normalized so that world GDP equal to 100.
+\normalsize
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\end{table}
