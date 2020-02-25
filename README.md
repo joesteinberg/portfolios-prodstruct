@@ -19,6 +19,7 @@ in the economics commmunity). There are no random numbers generated in any of th
 analyses, so no seeds are needed.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
+
 0. Datasets ("data_sources")
 
 The two datasets below are contained in the supplementary materials. They are widely used
@@ -34,6 +35,7 @@ themselves. They are available upon request, and I have included all intermediat
 these processing scripts so that the user can replicate all parts of my analysis.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
+
 1. Python scripts ("programs/python")
 
 Note: to run all python scripts, the user must have Numpy, Pandas, and Matplotlib installed.
@@ -80,6 +82,7 @@ the wedges and write the latex tables.
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
+
 2. Matlab programs ("programs/matlab/")
 
 Note: To run the Matlab code used in this paper you must have the symbolic toolbox and the optimization
