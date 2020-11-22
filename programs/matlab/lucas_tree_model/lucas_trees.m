@@ -5,7 +5,7 @@ fprintf(['Three-country Lucas tree example model\n\n']);
 NCOUNTRIES=7;
 TINY=1.0e-9;
 addpath '../usg_toolkit';
-addpath '../devereux-sutherland-example';
+addpath '../devereux_sutherland_example';
 
 fprintf(['Declaring symbolic variables and constructing analytical ' ...
          'representation of equilibrium conditions\n']);
