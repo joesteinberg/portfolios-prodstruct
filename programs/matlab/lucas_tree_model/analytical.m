@@ -174,8 +174,8 @@ end
 for j=2:NCOUNTRIES
     s=num2str(j);
     nf = nf+1;
-    f = (beta*muc(exp(c_1_p))*exp(Rs_p) - muc(exp(c_1))) ...
-        - (beta*muc(exp(eval(['c_',s,'_p'])))*exp(Rs_p) - muc(exp(eval(['c_',s]))));
+    f = (beta*muc(exp(c_1_p))*exp(Rs_p) / muc(exp(c_1))) ...
+        - (beta*muc(exp(eval(['c_',s,'_p'])))*exp(Rs_p) / muc(exp(eval(['c_',s]))));
     FF = [FF,f];
     indsF.(['ee_1',s]) = nf;
 end
